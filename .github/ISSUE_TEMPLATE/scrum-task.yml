@@ -1,0 +1,59 @@
+name: Scrum task
+description: Rastrear tarefa de sprint com DoD, critérios e evidências.
+title: "[TASK-ID] resumo objetivo"
+labels:
+  - scrum
+body:
+  - type: input
+    id: task_id
+    attributes:
+      label: ID da tarefa
+      placeholder: LOG-001, C-01, A-08
+    validations:
+      required: true
+  - type: dropdown
+    id: sprint
+    attributes:
+      label: Sprint
+      options:
+        - Sprint 1 - 2026-05-11 a 2026-05-21
+        - Sprint 2 - 2026-05-22 a 2026-06-01
+        - Sprint 3 - 2026-06-02 a 2026-06-13
+        - Sprint 4 - 2026-06-14 a 2026-06-24
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objetivo
+      placeholder: Descreva a entrega esperada.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Critérios de aceite testáveis
+      placeholder: Liste critérios verificáveis.
+    validations:
+      required: true
+  - type: textarea
+    id: dod
+    attributes:
+      label: Definition of Done
+      placeholder: Build, testes, documentação, revisão e evidências.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Evidências de validação
+      placeholder: Comandos, prints, logs ou links esperados.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Riscos e rollback
+      placeholder: Riscos conhecidos, mitigação e plano de reversão.
+    validations:
+      required: true
