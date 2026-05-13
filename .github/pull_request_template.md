@@ -4,24 +4,41 @@
 
 Descreva o objetivo da alteração e a tarefa da sprint relacionada.
 
+## ID da tarefa
+
+Informe o ID no formato `A-XX`, `B-XX`, `C-XX` ou `LOG-XXX`.
+
+- [ ] ID:
+
+## Contexto
+
+- Repositório:
+- Área impactada:
+- Dependências:
+
 ## Tarefas implementadas
 
-- [ ] ID: `TASK-ID`
+- [ ] Tarefa relacionada:
 
 ## Arquivos alterados
 
 - `caminho/do/arquivo`
 
-## Como validar localmente
+## Plano de teste antes do PR
+
+Liste os comandos e cenários planejados antes de solicitar revisão.
 
 ```bash
 # comandos de validação
 ```
 
-## Evidências esperadas
+## Evidências
 
+- [ ] Saída dos comandos anexada ou descrita
 - [ ] Build executado quando aplicável
 - [ ] Testes executados quando aplicável
+- [ ] Lint executado quando aplicável
+- [ ] Pipeline verificado quando disponível
 - [ ] Critérios de aceite conferidos
 - [ ] Documentação atualizada quando aplicável
 
@@ -34,6 +51,7 @@ Descreva o objetivo da alteração e a tarefa da sprint relacionada.
 
 - Risco:
 - Mitigação:
+- Pendência:
 - Rollback:
 
 ## Checklist antes do merge
@@ -44,4 +62,5 @@ Descreva o objetivo da alteração e a tarefa da sprint relacionada.
 - [ ] Sem arquivos temporários desnecessários
 - [ ] Revisão técnica solicitada
 - [ ] QA/validação concluída
-- [ ] Merge não automático
+- [ ] Riscos e pendências documentados
+- [ ] Merge automático não será feito sem revisão e aprovação

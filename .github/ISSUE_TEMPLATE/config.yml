@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Dúvida de processo Scrum
+    url: https://github.com/ilex-logistica
+    about: Use este canal apenas para dúvidas gerais; tarefas, bugs e melhorias devem usar templates rastreáveis.
