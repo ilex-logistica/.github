@@ -16,10 +16,11 @@ body:
     attributes:
       label: Sprint
       options:
-        - Sprint 1 - 2026-05-11 a 2026-05-21
-        - Sprint 2 - 2026-05-22 a 2026-06-01
-        - Sprint 3 - 2026-06-02 a 2026-06-13
-        - Sprint 4 - 2026-06-14 a 2026-06-24
+        - Sprint 01 - Fundacao do MVP (2026-05-12 a 2026-05-23)
+        - Sprint 02 - Coleta e Monitoramento (2026-05-26 a 2026-06-06)
+        - Sprint 03 - Operacao e Eficiencia (2026-06-09 a 2026-06-20)
+        - Sprint 04 - Relatorios e Integracoes (2026-06-23 a 2026-07-04)
+        - Sprint 05 - Cotacao e Go-Live (2026-07-07 a 2026-07-11)
     validations:
       required: true
   - type: textarea
