@@ -1,66 +1,26 @@
-# Pull Request
+﻿## Resumo
 
-## Objetivo
+Descreva objetivamente a entrega deste PR.
 
-Descreva o objetivo da alteração e a tarefa da sprint relacionada.
+## Vinculos obrigatorios
 
-## ID da tarefa
+- Epic (Docs): <!-- ex: https://github.com/ilex-logistica/Docs/issues/2 -->
+- Issue de origem (Docs): <!-- ex: https://github.com/ilex-logistica/Docs/issues/7 -->
+- Sprint/Milestone: <!-- ex: Sprint 02 - Coleta e Monitoramento (2026-05-26 a 2026-06-06) -->
 
-Informe o ID no formato `A-XX`, `B-XX`, `C-XX` ou `LOG-XXX`.
+## Contexto tecnico
 
-- [ ] ID:
+- Repositorio/area impactada:
+- Dependencias:
 
-## Contexto
+## Checklist de pronto
 
-- Repositório:
-- Área impactada:
-- Dependências:
+- [ ] Epic do Docs vinculado
+- [ ] Sprint/Milestone definida
+- [ ] Criterios de aceite atendidos
+- [ ] Testes locais executados
+- [ ] Sem dados sensiveis em logs/configs
 
-## Tarefas implementadas
+## Evidencias
 
-- [ ] Tarefa relacionada:
-
-## Arquivos alterados
-
-- `caminho/do/arquivo`
-
-## Plano de teste antes do PR
-
-Liste os comandos e cenários planejados antes de solicitar revisão.
-
-```bash
-# comandos de validação
-```
-
-## Evidências
-
-- [ ] Saída dos comandos anexada ou descrita
-- [ ] Build executado quando aplicável
-- [ ] Testes executados quando aplicável
-- [ ] Lint executado quando aplicável
-- [ ] Pipeline verificado quando disponível
-- [ ] Critérios de aceite conferidos
-- [ ] Documentação atualizada quando aplicável
-
-## Critérios de aceite validados
-
-- [ ] Critério 1
-- [ ] Critério 2
-
-## Riscos e pendências
-
-- Risco:
-- Mitigação:
-- Pendência:
-- Rollback:
-
-## Checklist antes do merge
-
-- [ ] Branch da sprint utilizada
-- [ ] Commits rastreáveis por tarefa
-- [ ] Sem secrets reais
-- [ ] Sem arquivos temporários desnecessários
-- [ ] Revisão técnica solicitada
-- [ ] QA/validação concluída
-- [ ] Riscos e pendências documentados
-- [ ] Merge automático não será feito sem revisão e aprovação
+Inclua logs, prints ou resultados de teste que comprovem a entrega.

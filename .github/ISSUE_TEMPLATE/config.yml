@@ -1,5 +1,8 @@
-blank_issues_enabled: false
+﻿blank_issues_enabled: false
 contact_links:
-  - name: Dúvida de processo Scrum
+  - name: Planejamento central (Docs)
+    url: https://github.com/ilex-logistica/Docs/issues
+    about: Consulte epicos, sprints e backlog oficial antes de abrir nova issue.
+  - name: Duvidas de processo
     url: https://github.com/ilex-logistica
-    about: Use este canal apenas para dúvidas gerais; tarefas, bugs e melhorias devem usar templates rastreáveis.
+    about: Use este canal para duvidas gerais de processo.
