@@ -1,54 +1,67 @@
-﻿# Ilex Logística - Organização GitHub
+﻿# Ilex Logistica - Organizacao GitHub
 
-Plataforma web para rastreio automatizado de entregas, identificação de atrasos e tratamento de exceções operacionais.
+Plataforma web para rastreio automatizado de entregas, identificacao de atrasos e tratamento de excecoes operacionais.
 
-## Visão executiva
+## Verdade oficial de planejamento
 
-O projeto Ilex Logística será entregue como MVP avançado em 45 dias, com foco em:
+- Janela oficial da Sprint 1: **12/05/2026 a 23/05/2026**.
+- Owner do projeto: `ilex-logistica`.
+- Project oficial: `Ilex Logistica - Roadmap 60 dias (12/05 a 11/07/2026)`.
+- Regras obrigatorias de rastreio em todas as issues e PRs:
+  - `Epic (Docs)`
+  - `Issue de origem (Docs)`
+  - `Sprint/Milestone`
 
-- Centralização de dados logísticos
-- Monitoramento de atrasos e criticidade
-- Painel de exceções para ação humana
-- Relatório diário matinal para operação e gestão
+## Mapa de repositorios
 
-## Mapa de repositórios
-
-| Repositório | Responsabilidade | Stack principal |
+| Repositorio | Responsabilidade | Stack principal |
 |---|---|---|
-| `Api` | API principal, regras de prazo/SLA, exceções, alertas e relatórios | FastAPI, SQLAlchemy, PostgreSQL |
-| `Web` | Dashboard e operação logística web responsiva | Next.js, TypeScript, Tailwind |
-| `Infra` | Ambientes, containerização, CI/CD e observabilidade | Docker, Nginx, GitHub Actions |
-| `Integrations` | Conectores de transportadoras, bots e adaptadores | Python workers, clients de API |
-| `Docs` | Escopo, sprints, guias técnicos e materiais de operação | Markdown |
-| `.github` | Governança, visão organizacional e padrões globais | GitHub Templates/Docs |
+| `Api` | API principal, regras de SLA, excecoes, alertas e relatorios | FastAPI, SQLAlchemy, PostgreSQL |
+| `Web` | Dashboard e operacao logistica web responsiva | Next.js, TypeScript, Tailwind |
+| `Infra` | Ambientes, containerizacao, CI/CD e observabilidade | Docker, Nginx, GitHub Actions |
+| `Integrations` | Conectores de transportadoras e adaptadores | Python workers, clients de API |
+| `Docs` | Escopo, sprints, guias tecnicos e materiais de operacao | Markdown |
+| `.github` | Governanca, templates e padroes globais | GitHub Templates/Docs |
 
-## Stack macro
+## Fluxo Scrum oficial
 
-- Backend: Python, FastAPI, SQLAlchemy, Pydantic, jobs assíncronos
-- Frontend: Next.js, TypeScript, Tailwind CSS
-- Banco de dados: PostgreSQL
-- Infra: Docker, Nginx, GitHub Actions
-- Integrações: APIs de transportadoras, importação Excel/CSV e bots controlados
+1. Planning:
+- validar backlog da sprint no `Docs`;
+- confirmar rastreio (`Epic`, `Issue origem`, `Milestone`) antes de iniciar execucao.
 
-## Cronograma macro (45 dias)
+2. Daily:
+- atualizar status de cards no Project (`Todo`, `In Progress`, `Done`);
+- registrar impedimentos e proximas acoes.
 
-- Sprint 1: 11/05/2026 a 21/05/2026 - Fundação
-- Sprint 2: 22/05/2026 a 01/06/2026 - Core Logístico
-- Sprint 3: 02/06/2026 a 13/06/2026 - Exceções e Relatório
-- Sprint 4: 14/06/2026 a 24/06/2026 - Integrações, QA e Deploy
+3. Review:
+- validar criterios de aceite por tarefa;
+- checar evidencias (tests, logs, links de PR/issue).
 
-## Convenção de commits
+4. Retro:
+- registrar aprendizados e acoes de melhoria na trilha de documentacao da sprint.
 
-Padrão adotado:
+## Milestones de sprint
+
+Todos os repositorios de execucao usam milestones sincronizadas:
+
+- Sprint 01 - Fundacao do MVP (2026-05-12 a 2026-05-23)
+- Sprint 02 - Coleta e Monitoramento (2026-05-26 a 2026-06-06)
+- Sprint 03 - Operacao e Eficiencia (2026-06-09 a 2026-06-20)
+- Sprint 04 - Relatorios e Integracoes (2026-06-23 a 2026-07-04)
+- Sprint 05 - Cotacao e Go-Live (2026-07-07 a 2026-07-11)
+
+## Convencao de commits
 
 `<tipo>(<repo>): <ID> <resumo em pt-BR>`
 
 Exemplos:
 
-- `docs(api): LOG-007 detalha validacao de colunas obrigatorias`
-- `feat(web): LOG-016 cria painel inicial de excecoes`
-- `chore(infra): LOG-001 ajusta base de organizacao`
+- `docs(api): A-09 publica contrato tecnico da fundacao`
+- `feat(web): B-07 cria formulario de transportadoras`
+- `chore(infra): C-03 habilita pipeline CI inicial`
 
-## Referência do escopo
+## Referencias
 
-Documento base: `ESCOPO_PROJETO_ILEX_LOGISTICA.pdf` (DB Tecnologia, 11/05/2026).
+- Escopo base: `ESCOPO_PROJETO_ILEX_LOGISTICA.pdf`
+- Apendice: `APENDICE_1_ILEX_LOGISTICA_SOLICITACOES_CLIENTE.pdf`
+- Rastreio central da sprint: `Docs/sprints/2026-05-12_2026-05-23/`
