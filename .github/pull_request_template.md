@@ -1,4 +1,4 @@
-## Resumo
+﻿## Resumo
 
 Descreva objetivamente a entrega deste PR.
 
@@ -7,6 +7,11 @@ Descreva objetivamente a entrega deste PR.
 - Epic (Docs): <!-- ex: https://github.com/ilex-logistica/Docs/issues/2 -->
 - Issue de origem (Docs): <!-- ex: https://github.com/ilex-logistica/Docs/issues/7 -->
 - Sprint/Milestone: <!-- ex: Sprint 02 - Coleta e Monitoramento (2026-05-26 a 2026-06-06) -->
+
+## Contexto tecnico
+
+- Repositorio/area impactada:
+- Dependencias:
 
 ## Checklist de pronto
 
@@ -19,4 +24,3 @@ Descreva objetivamente a entrega deste PR.
 ## Evidencias
 
 Inclua logs, prints ou resultados de teste que comprovem a entrega.
-
